@@ -610,6 +610,14 @@ video {
   left: 35%;
 }
 
+.top-\[30\%\] {
+  top: 30%;
+}
+
+.top-\[33\%\] {
+  top: 33%;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -676,6 +684,14 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-\[50vh\] {
+  height: 50vh;
+}
+
+.h-\[40vh\] {
+  height: 40vh;
 }
 
 .w-1\/2 {
@@ -868,9 +884,19 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .p-10 {
