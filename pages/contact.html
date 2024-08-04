@@ -59,15 +59,32 @@
                 CONTACT US
             </h1>
             <form action="" class="sm:w-1/2 mx-auto flex flex-col gap-5 py-6 sm:px-12">
-                <div class="flex flex-col justify-center gap-3">
+                <div class="flex flex-col justify-center gap-5">
                     <div class="flex flex-col">
                         <input type="text" name="Full Name" class="py-3 px-6 border-[1px] border-zinc-200 rounded-md" placeholder="Full Name" required>
                     </div>
                     <div class="flex flex-col">
-                        <input type="text" name="Email" class="py-3 px-6 border-[1px] border-zinc-200 rounded-md" placeholder="Email">
+                        <input type="email" name="Email" class="py-3 px-6 border-[1px] border-zinc-200 rounded-md" placeholder="Email">
                     </div>
                 </div>
     
+                <div class="flex flex-col justify-center gap-5">
+                    <div class="flex flex-col">
+                        <input type="tel" name="Phone" class="py-3 px-6 border-[1px] border-zinc-200 rounded-md" placeholder="Phone">
+                    </div>
+                    <div class="flex flex-col">
+                        <input type="text" name="Location" class="py-3 px-6 border-[1px] border-zinc-200 rounded-md" placeholder="Location">
+                    </div>
+                </div>
+
+                <select class="py-3 px-6 border-[1px] border-zinc-200 rounded-md"  name="Service" id="">
+                    <option value="select service">Select Service</option>
+                    <option value="Dog Training">Dog Training</option>
+                    <option value="Dog Walking">Dog Walking</option>
+                    <option value="Dog Grooming">Dog Grooming</option>
+                </select>
+    
+                <textarea name="Message" rows="10" placeholder="Message..." class="p-3 border-[1px] border-zinc-200 rounded-md"></textarea>
             </form>
             <div class="flex justify-center">
                 <button type="submit" class="curtain-button rounded-md">
@@ -75,6 +92,8 @@
                 </button>
             </div>
         </section>
+
+        
     </main>
     
     <footer>
