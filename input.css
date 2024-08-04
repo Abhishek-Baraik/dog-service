@@ -259,7 +259,6 @@ li {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6); /* Blue tint with 50% opacity */
-    pointer-events: none; /* Ensures the overlay does not interfere with clicks */
   }
 
   .curtain-button {
